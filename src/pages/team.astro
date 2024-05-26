@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import pfpCard from '../components/pfpCard.astro';
 import Card from '../components/Card.astro';
+import NewCard from '../components/NewCard.astro';
+
 const pageTitle = "Team";
 ---
 <Layout pageTitle={pageTitle}>
@@ -9,46 +11,30 @@ const pageTitle = "Team";
         <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
     </div>
     <h2>Team</h2>
-    <ul role="list" class="link-pfpCard-grid">
-        <pfpCard
-            url="https://www.linkedin.com/"
-            image="/blog-post.webp"
-            title="Sky Wang"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <pfpCard
-            url="https://www.linkedin.com/"
-            image="/blog-post.webp"
-            title="Blog 2"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <pfpCard
-            url="https://www.linkedin.com/"
-            image="/blog-post.webp"
-            title="Blog 3"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <pfpCard
-            url="https://www.linkedin.com/"
-            image="/blog-post.webp"
-            title="Blog 4"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-    </ul>
-    <h2>YouTube</h2>
     <ul role="list" class="link-card-grid">
-        <Card
-            url="https://www.youtube.com/"
-            image="/youtube.webp"
-            title="Video 1"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+        <NewCard
+            url="https://www.linkedin.com/"
+            image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3f%2F68%2Ffd%2F3f68fd34287fdc0b095c012f16953f9d.jpg&f=1&nofb=1&ipt=ca6ca0b2d4fb48934cb4e84e81a827c3c9e66818075d5a1527375de76d5c898e&ipo=images"
+            title="Sky Wang"
+            body="Developer, rock climber, studio ghibli enthusiast."
         />
-        <Card
-            url="https://www.youtube.com/"
-            image="/youtube.webp"
-            title="Video 2"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+        <NewCard
+            url="https://www.linkedin.com/"
+            image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F2c%2F55%2F39%2F2c5539695deb7a88a0776305aba933ec.jpg&f=1&nofb=1&ipt=05c178a1733eb51225124382d8c07dca0bb512c7a8d1913a7dd86f896f7463f1&ipo=images"
+            title="Placeholder"
+            body="Comic book lover, ice cream taste tester, #1 Ryan Reynolds Fan."
+        />
+        <NewCard
+            url="https://www.linkedin.com/"
+            image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F236x%2F19%2F08%2Fa7%2F1908a7eae6903f9d5861b62b1e025788.jpg&f=1&nofb=1&ipt=f1f6fd233f2455456c9e21d6e0a47ab0e91fabd3290502ca0c8e77afb43aad5e&ipo=images"
+            title="Placeholder"
+            body="Aspiring neuroscientist and passionate about volunteering. Find me next to a tree."
+        />
+        <NewCard
+            url="https://www.linkedin.com/"
+            image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages6.fanpop.com%2Fimage%2Fphotos%2F43700000%2FKaguya-studio-ghibli-43776497-800-800.jpg&f=1&nofb=1&ipt=6e1c155b8efac46eb2c75f4efdf901c62bdf20cdc0139a540cc34920f80e3b9e&ipo=images"
+            title="Placeholder"
+            body="Smelly nerd."
         />
     </ul>
 </Layout>
-

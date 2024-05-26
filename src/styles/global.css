@@ -169,20 +169,14 @@ small, li {
     transform: scale(1.05);
 }
 
-.link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-    gap: 1rem;
-    padding: 0;
-}
-
-.pfpCard{
+.card {
     list-style: none;
     display: flex;
     background-size: 400%;
     padding: 20px;
 }
-.pfpCard__link {
+
+.card__link {
     width: 100%;
     text-decoration: none;
     line-height: 1.4;
@@ -190,11 +184,11 @@ small, li {
     color: var(--text);
 }
 
-.pfpCard__img {
-    border-radius: 30px;
+.card__img {
+    border-radius: 16px;
 }
 
-.pfpCard__title {
+.card__title {
     margin: 0;
     font-family: var(--body);
     font-size: 1.5rem;
@@ -202,7 +196,7 @@ small, li {
     text-align: center;
 }
 
-.pfpCard__txt {
+.card__txt {
     font-size: 1rem;
     line-height: 1.5;
     text-indent: 0;
@@ -210,16 +204,55 @@ small, li {
     margin: 0.5rem 0 0;
 }
 
-.pfpCard__link:hover {
+.card__link:hover {
     transform: scale(1.05);
 }
 
-.link-pfpCard-grid {
+.link-card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
     gap: 1rem;
     padding: 0;
 }
+.pfp-card {
+    list-style: none;
+    display: flex;
+    background-size: 400%;
+    padding: 20px;
+}
+
+.pfp-card__link {
+    width: 100%;
+    text-decoration: none;
+    line-height: 1.4;
+    border-radius: 8px;
+    color: var(--text);
+}
+
+.pfp-card__img {
+    border-radius: 50%;
+}
+
+.pfp-card__title {
+    margin: 0;
+    font-family: var(--body);
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.pfp-card__txt {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-indent: 0;
+    text-align: center;
+    margin: 0.5rem 0 0;
+}
+
+.pfp-card__link:hover {
+    transform: scale(1.05);
+}
+
 /* Button */
 .btn {
     text-align: center;

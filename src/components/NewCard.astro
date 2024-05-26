@@ -8,15 +8,15 @@ interface Props {
 
 const { url, image, title, body } = Astro.props;
 ---
-<li class="card">
-    <a class="card__link" href={url}>
+<li class="pfp-card">
+    <a class="pfp-card__link" href={url}>
         <div class="center">
-            <img class="card__img" width="226" height="127" src={image} alt="NewsImage">
+            <img class="pfp-card__img" width="127" height="127" src={image} alt="NewsImage">
         </div>
-        <h3 class="card__title">
+        <h3 class="pfp-card__title">
             {title}
         </h3>
-        <p class="card__txt">
+        <p class="pfp-card__txt">
             {body}
         </p>
     </a>
