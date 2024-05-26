@@ -381,6 +381,13 @@ html.light {
 .light .card__txt {
     color: var(--text-light); 
 }
+.light .pfp-card__title {
+    color: var(--text-light); 
+}
+
+.light .pfp-card__txt {
+    color: var(--text-light); 
+}
 
 .light .btn {
     color: var(--text-light);
