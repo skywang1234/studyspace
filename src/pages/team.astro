@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import pfpCard from '../components/pfpCard.astro';
 import Card from '../components/Card.astro';
 const pageTitle = "Team";
 ---
@@ -7,28 +8,28 @@ const pageTitle = "Team";
     <div class="gif">
         <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
     </div>
-    <h2>Blog</h2>
-    <ul role="list" class="link-card-grid">
-        <Card
-            url="https://medium.com/"
+    <h2>Team</h2>
+    <ul role="list" class="link-pfpCard-grid">
+        <pfpCard
+            url="https://www.linkedin.com/"
             image="/blog-post.webp"
-            title="Blog 1"
+            title="Sky Wang"
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
         />
-        <Card
-            url="https://medium.com/"
+        <pfpCard
+            url="https://www.linkedin.com/"
             image="/blog-post.webp"
             title="Blog 2"
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
         />
-        <Card
-            url="https://medium.com/"
+        <pfpCard
+            url="https://www.linkedin.com/"
             image="/blog-post.webp"
             title="Blog 3"
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
         />
-        <Card
-            url="https://medium.com/"
+        <pfpCard
+            url="https://www.linkedin.com/"
             image="/blog-post.webp"
             title="Blog 4"
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
