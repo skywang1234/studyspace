@@ -2,7 +2,7 @@
 title: 'Coming Soon'
 description: Check back later for more Study Space news!'
 image:
-    url: '/GitHub.webp'
+    url: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FsfwkJExvw3KUKTEiHUEaYW.jpg&f=1&nofb=1&ipt=c90c163047151ad12ce11c0944595708ef030a94132684d67a47fdb48ed8df58&ipo=images'
     alt: 'GitHub wallpaper'
 worksImage1:
     url: '/image-1.webp'
