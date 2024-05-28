@@ -1,15 +1,15 @@
 ---
 title: 'Coming Soon'
-description: Check back later for more Study Space news!'
+description: 'Check back later for more Study Space news!'
 image:
     url: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FsfwkJExvw3KUKTEiHUEaYW.jpg&f=1&nofb=1&ipt=c90c163047151ad12ce11c0944595708ef030a94132684d67a47fdb48ed8df58&ipo=images'
-    alt: 'Howl's Backdrop'
+    alt: 'Howls Backdrop'
 worksImage1:
     url: '/image-1.webp'
-    alt: 'first image of your project.'
+    alt: 'first Study Space UNC megathread announcement image'
 worksImage2:
     url: '/image-2.webp'
-    alt: 'second image of your project.'
+    alt: 'first Study Space UNC megathread announcement image'
 platform: Web
 stack: Astro, JavaScript
 website: https://astro-milky-way.netlify.app/
