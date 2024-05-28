@@ -284,6 +284,12 @@ small, li {
     text-align: center;
 }
 
+.iframeWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .pro-img {
     border-radius: 16px;
     margin-top: 10px;
