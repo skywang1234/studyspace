@@ -46,7 +46,7 @@ p {
     font-size: 1.1rem;
     hyphens: auto;
     line-height: 1.5;
-    text-indent: 1rem;
+    text-indent: 0;
 }
 
 small, li {
@@ -288,6 +288,7 @@ small, li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
 }
 
 .pro-img {
@@ -464,4 +465,3 @@ html.light {
         width: 350px;
     }
 }
-
